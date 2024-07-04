@@ -1,0 +1,15 @@
+# GIMP action-history
+
+(history-item "edit-clear" 3)
+(history-item "select-invert" 0)
+(history-item "file-export-as" 1)
+(history-item "file-quit" 1)
+(history-item "file-save-as" 1)
+(history-item "image-duplicate" 0)
+(history-item "file-save" 0)
+(history-item "file-print-gtk" 0)
+(history-item "tools-crop" 0)
+(history-item "tools-iscissors" 0)
+(history-item "tools-rect-select" 1)
+
+# end of action-history
