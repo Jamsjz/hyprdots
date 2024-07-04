@@ -5,7 +5,7 @@ This is my personal dotfiles repository. It contains my configuration files for 
 ## Tools
 
 1. neovim:
-    Refer to [this](nvim/.config/nvim/README.org) for more information.
+    Refer to [this](https://github.com/jamsjz/nvim) for more information.
 2. tmux
     Refer to [this](tmux/README.org) for more information.
 3. fish
