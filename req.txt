@@ -2,6 +2,7 @@ linux
 linux-headers
 nvidia
 nvidia-utils
+egl-wayland
 neovim
 neovide
 kitty
