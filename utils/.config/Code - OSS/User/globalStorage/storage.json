@@ -3,7 +3,8 @@
     "profileAssociations": {
         "workspaces": {},
         "emptyWindows": {
-            "1719939237091": "__default__profile__"
+            "1719939237091": "__default__profile__",
+            "1720327149507": "__default__profile__"
         }
     },
     "profileAssociationsMigration": true,
@@ -15,7 +16,7 @@
         "folders": [],
         "emptyWindows": [
             {
-                "backupFolder": "1719939237091"
+                "backupFolder": "1720327149507"
             }
         ]
     },
@@ -59,31 +60,6 @@
                                     "id": "workbench.action.reopenClosedEditor",
                                     "label": "&&Reopen Closed Editor",
                                     "enabled": false
-                                },
-                                {
-                                    "id": "vscode.menubar.separator"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/j/--ozone-platform-hint%3Dwayland",
-                                        "path": "/home/j/--ozone-platform-hint=wayland",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/--ozone-platform-hint=wayland"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/j/--disable-gpu",
-                                        "path": "/home/j/--disable-gpu",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/--disable-gpu"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -261,7 +237,8 @@
                     },
                     {
                         "id": "workbench.action.files.revert",
-                        "label": "Re&&vert File"
+                        "label": "Re&&vert File",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.closeActiveEditor",
@@ -669,6 +646,13 @@
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
+                                    "id": "workbench.action.splitEditorInGroup",
+                                    "label": "Split in &&Group"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
                                     "id": "workbench.action.moveEditorToNewWindow",
                                     "label": "&&Move Editor into New Window"
                                 },
@@ -768,8 +752,7 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "&&Word Wrap",
-                        "enabled": false
+                        "label": "&&Word Wrap"
                     }
                 ]
             },
@@ -777,7 +760,8 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back"
+                        "label": "&&Back",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -1439,6 +1423,11 @@
                 "isNative": false,
                 "userSettingsLabel": "ctrl+k ctrl+\\"
             },
+            "workbench.action.splitEditorInGroup": {
+                "label": "Ctrl+K Ctrl+Shift+\\",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+k ctrl+shift+\\"
+            },
             "workbench.action.copyEditorToNewWindow": {
                 "label": "Ctrl+K O",
                 "isNative": false,
@@ -1664,19 +1653,19 @@
         }
     },
     "theme": "vs-dark",
-    "themeBackground": "#060606",
+    "themeBackground": "#1f232c",
     "windowSplash": {
         "zoomLevel": 0,
         "baseTheme": "vs-dark",
         "colorInfo": {
             "foreground": "#ffffff",
-            "background": "#060606",
-            "editorBackground": "#060606",
-            "titleBarBackground": "#060606",
-            "activityBarBackground": "#1a1a1a",
-            "sideBarBackground": "#1a1a1a",
-            "statusBarBackground": "#060606",
-            "statusBarNoFolderBackground": "#060606",
+            "background": "#1f232c",
+            "editorBackground": "#1f232c",
+            "titleBarBackground": "#1f232c",
+            "activityBarBackground": "#293552",
+            "sideBarBackground": "#293552",
+            "statusBarBackground": "#1f232c",
+            "statusBarNoFolderBackground": "#1f232c",
             "windowBorder": "rgba(0, 0, 0, 0)"
         },
         "layoutInfo": {
@@ -1691,13 +1680,13 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/j/.config/Code - OSS/Backups/1719939237091",
+            "backupPath": "/home/j/.config/Code - OSS/Backups/1720327149507",
             "uiState": {
                 "mode": 0,
                 "x": 0,
                 "y": 0,
-                "width": 1920,
-                "height": 1080
+                "width": 512,
+                "height": 320
             }
         },
         "openedWindows": []

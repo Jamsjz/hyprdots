@@ -1,2 +1,3 @@
-2024/07/02-22:39:26.416 71f7 Creating DB /home/j/.config/Code - OSS/Session Storage since it was missing.
-2024/07/02-22:39:26.419 71f7 Reusing MANIFEST /home/j/.config/Code - OSS/Session Storage/MANIFEST-000001
+2024/07/07-10:24:16.849 a080b Reusing MANIFEST /home/j/.config/Code - OSS/Session Storage/MANIFEST-000001
+2024/07/07-10:24:16.850 a080b Recovering log #3
+2024/07/07-10:24:16.850 a080b Reusing old log /home/j/.config/Code - OSS/Session Storage/000003.log 
