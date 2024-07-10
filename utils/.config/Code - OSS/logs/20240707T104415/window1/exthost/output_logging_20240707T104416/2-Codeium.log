@@ -1,0 +1,141 @@
+2024-07-07 10:44:17.397 [INFO]: No proxy settings found
+2024-07-07 10:44:18.491 [INFO]: Creating manager directory: /tmp/a1437e08-d5e2-4d82-bbd2-536b5c77d464/codeium/manager
+2024-07-07 10:44:18.960 [INFO]: Using cached LS with valid crc32: /home/j/.vscode-oss/extensions/codeium.codeium-1.8.64-universal/dist/a449546e0384eb1c5a91cd222eebb296be9a0f91/language_server_linux_x64
+2024-07-07 10:44:18.970 [INFO]: Language server started
+2024-07-07 10:44:19.111 [INFO]: [Language Server (stderr)]:
+I0707 10:44:19.110290 684102 main.go:558] Starting language server manager with pid 684102
+I0707 10:44:19.110417 684102 main.go:110] Manager acquired its lock file /tmp/a1437e08-d5e2-4d82-bbd2-536b5c77d464/codeium/manager/locks/manager.lock
+2024-07-07 10:44:19.112 [INFO]: [Language Server (stderr)]:
+I0707 10:44:19.111349 684102 main.go:248] Waiting for random port file in /tmp/a1437e08-d5e2-4d82-bbd2-536b5c77d464/codeium/manager/child_random_port_1720328359110577129_975580206853312000 to be created
+2024-07-07 10:44:19.251 [INFO]: [Language Server (stderr)]:
+I0707 10:44:19.250581 684116 main.go:552] Starting language server process with pid 684116
+I0707 10:44:19.250665 684116 server.go:156] Language server will attempt to listen on host 127.0.0.1
+I0707 10:44:19.250856 684116 server.go:163] Language server listening on random port at 40837
+I0707 10:44:19.250960 684116 proxy.go:113] proxyplease.proxy> No proxy provided. Attempting to infer from system.
+I0707 10:44:19.250979 684116 proxy.go:113] proxyplease.proxy> No proxy could be determined. Assuming a direct connection.
+I0707 10:44:19.251013 684116 client.go:589] [DEBUG] GET https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions
+2024-07-07 10:44:20.147 [INFO]: [Language Server (stderr)]:
+I0707 10:44:20.146607 684116 unleash.go:90] Initializing Unleash
+2024-07-07 10:44:20.962 [INFO]: [Language Server (stderr)]:
+I0707 10:44:20.961496 684116 unleash.go:110] Successfully initialized Unleash
+2024-07-07 10:44:20.984 [INFO]: [Language Server (stderr)]:
+E0707 10:44:20.981942 684116 client_manager.go:270] Metadata is nil when trying to refresh user JWT
+2024-07-07 10:44:21.919 [INFO]: [Language Server (stderr)]:
+I0707 10:44:21.918286 684116 server.go:355] Successfully created API server client
+2024-07-07 10:44:21.983 [INFO]: [Language Server (stderr)]:
+I0707 10:44:21.982302 684116 server.go:364] Successfully initialized tokenizer
+2024-07-07 10:44:22.092 [INFO]: [Language Server (stderr)]:
+I0707 10:44:22.092002 684116 server.go:473] Local search is enabled, will index local files.
+I0707 10:44:22.092052 684116 server.go:477] Using 3 indexer workers
+I0707 10:44:22.092132 684116 search_provider.go:200] Using database at /home/j/.codeium/database/9c0694567290725d9dcba14ade58e297/2/MODEL_EMBED_6591
+2024-07-07 10:44:22.094 [INFO]: [Language Server (stderr)]:
+I0707 10:44:22.093759 684116 database.go:123] Bad db state detected: false
+2024-07-07 10:44:22.095 [INFO]: [Language Server (stderr)]:
+I0707 10:44:22.094682 684116 search_provider.go:214] Successfully created embedding search database in 2ms
+2024-07-07 10:44:22.095 [INFO]: [Language Server (stderr)]:
+I0707 10:44:22.095036 684116 indexer.go:224] Using 12 embed workers
+I0707 10:44:22.095068 684116 search_provider.go:239] Successfully created and started indexer
+I0707 10:44:22.095096 684116 search_provider.go:265] Successfully created embedding search provider
+I0707 10:44:22.095109 684116 server.go:515] Successfully created exact search provider
+2024-07-07 10:44:22.099 [INFO]: [Language Server (stderr)]:
+I0707 10:44:22.098976 684116 server.go:545] Successfully created completion provider
+I0707 10:44:22.099099 684116 server.go:594] Child process attempting to acquire lock file /tmp/a1437e08-d5e2-4d82-bbd2-536b5c77d464/codeium/manager/locks/child_lock_1720328359110618785_6134629490957764630
+I0707 10:44:22.099150 684116 server.go:602] Child process acquired lock file /tmp/a1437e08-d5e2-4d82-bbd2-536b5c77d464/codeium/manager/locks/child_lock_1720328359110618785_6134629490957764630
+2024-07-07 10:44:22.103 [INFO]: [Language Server (stderr)]:
+I0707 10:44:22.103213 684116 server.go:183] LSP listening on random port at 35569
+2024-07-07 10:44:22.104 [INFO]: [Language Server (stderr)]:
+I0707 10:44:22.103590 684116 web_server.go:239] Chat Web Server listening at ws://127.0.0.1:41583
+2024-07-07 10:44:22.127 [INFO]: [Language Server (stdout)]:
+35569
+2024-07-07 10:44:22.127 [INFO]: [Language Server (stderr)]:
+I0707 10:44:22.126044 684102 main.go:284] Language server manager found random server port 40837
+I0707 10:44:22.126106 684102 main.go:285] Language server manager found random lsp port 35569
+I0707 10:44:22.126141 684102 main.go:292] Language server manager attempting to connect to language server at 127.0.0.1:40837
+2024-07-07 10:44:22.155 [INFO]: [Language Server (stderr)]:
+I0707 10:44:22.154547 684102 main.go:163] Fixing language server port at 40837
+I0707 10:44:22.154582 684102 main.go:343] Language server manager successfully connected to new language server at 127.0.0.1:40837
+2024-07-07 10:44:22.211 [INFO]: Found language server running on port 40837
+2024-07-07 10:44:22.221 [INFO]: Downloaded binary: /home/j/.codeium/bin/af6b6c543b224d348a8876f0c06245d9ea7929c5/ripgrep_linux_x64
+2024-07-07 10:44:22.235 [INFO]: [Language Server (stderr)]:
+I0707 10:44:22.234879 684116 rpcs_miscellaneous.go:118] Ripgrep available at /home/j/.codeium/bin/af6b6c543b224d348a8876f0c06245d9ea7929c5/ripgrep_linux_x64
+2024-07-07 10:44:22.638 [INFO]: [Language Server (stderr)]:
+I0707 10:44:22.636898 684116 rpcs_miscellaneous.go:312] University version is up to date.
+2024-07-07 11:23:22.150 [INFO]: [Language Server (stderr)]:
+E0707 11:23:22.148747 684116 unleash.go:60] Unleash error: Get "https://unleash.codeium.com/api/client/features": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2024-07-07 11:24:22.149 [INFO]: [Language Server (stderr)]:
+E0707 11:24:22.147806 684116 unleash.go:60] Unleash error: Get "https://unleash.codeium.com/api/client/features": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2024-07-07 11:25:22.149 [INFO]: [Language Server (stderr)]:
+E0707 11:25:22.148342 684116 unleash.go:60] Unleash error: Get "https://unleash.codeium.com/api/client/features": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2024-07-07 11:27:22.149 [INFO]: [Language Server (stderr)]:
+E0707 11:27:22.148123 684116 unleash.go:60] Unleash error: Get "https://unleash.codeium.com/api/client/features": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2024-07-07 11:28:22.148 [INFO]: [Language Server (stderr)]:
+E0707 11:28:22.147343 684116 unleash.go:60] Unleash error: Get "https://unleash.codeium.com/api/client/features": dial tcp 35.223.238.178:443: i/o timeout (Client.Timeout exceeded while awaiting headers)
+2024-07-07 11:30:22.149 [INFO]: [Language Server (stderr)]:
+E0707 11:30:22.147989 684116 unleash.go:60] Unleash error: Get "https://unleash.codeium.com/api/client/features": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2024-07-07 11:39:22.149 [INFO]: [Language Server (stderr)]:
+E0707 11:39:22.148225 684116 unleash.go:60] Unleash error: Get "https://unleash.codeium.com/api/client/features": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2024-07-07 12:06:22.153 [INFO]: [Language Server (stderr)]:
+E0707 12:06:22.150845 684116 unleash.go:60] Unleash error: Get "https://unleash.codeium.com/api/client/features": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2024-07-07 12:17:22.152 [INFO]: [Language Server (stderr)]:
+E0707 12:17:22.151540 684116 unleash.go:60] Unleash error: Get "https://unleash.codeium.com/api/client/features": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2024-07-07 12:23:22.155 [INFO]: [Language Server (stderr)]:
+E0707 12:23:22.153021 684116 unleash.go:60] Unleash error: Get "https://unleash.codeium.com/api/client/features": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2024-07-07 13:11:22.150 [INFO]: [Language Server (stderr)]:
+E0707 13:11:22.148814 684116 unleash.go:60] Unleash error: Get "https://unleash.codeium.com/api/client/features": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2024-07-07 13:14:22.149 [INFO]: [Language Server (stderr)]:
+E0707 13:14:22.148351 684116 unleash.go:60] Unleash error: Get "https://unleash.codeium.com/api/client/features": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2024-07-07 13:17:22.149 [INFO]: [Language Server (stderr)]:
+E0707 13:17:22.148281 684116 unleash.go:60] Unleash error: Get "https://unleash.codeium.com/api/client/features": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2024-07-07 13:18:22.148 [INFO]: [Language Server (stderr)]:
+E0707 13:18:22.147775 684116 unleash.go:60] Unleash error: Get "https://unleash.codeium.com/api/client/features": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2024-07-07 13:19:22.149 [INFO]: [Language Server (stderr)]:
+E0707 13:19:22.148166 684116 unleash.go:60] Unleash error: Get "https://unleash.codeium.com/api/client/features": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2024-07-07 13:20:22.148 [INFO]: [Language Server (stderr)]:
+E0707 13:20:22.147421 684116 unleash.go:60] Unleash error: Get "https://unleash.codeium.com/api/client/features": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2024-07-07 13:21:22.149 [INFO]: [Language Server (stderr)]:
+E0707 13:21:22.148371 684116 unleash.go:60] Unleash error: Get "https://unleash.codeium.com/api/client/features": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2024-07-07 13:22:22.149 [INFO]: [Language Server (stderr)]:
+E0707 13:22:22.147903 684116 unleash.go:60] Unleash error: Get "https://unleash.codeium.com/api/client/features": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2024-07-07 13:23:22.148 [INFO]: [Language Server (stderr)]:
+E0707 13:23:22.147286 684116 unleash.go:60] Unleash error: Get "https://unleash.codeium.com/api/client/features": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2024-07-07 13:24:22.150 [INFO]: [Language Server (stderr)]:
+E0707 13:24:22.148740 684116 unleash.go:60] Unleash error: Get "https://unleash.codeium.com/api/client/features": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2024-07-07 13:25:22.149 [INFO]: [Language Server (stderr)]:
+E0707 13:25:22.147731 684116 unleash.go:60] Unleash error: Get "https://unleash.codeium.com/api/client/features": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2024-07-07 13:26:22.149 [INFO]: [Language Server (stderr)]:
+E0707 13:26:22.148070 684116 unleash.go:60] Unleash error: Get "https://unleash.codeium.com/api/client/features": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2024-07-07 13:27:22.149 [INFO]: [Language Server (stderr)]:
+E0707 13:27:22.148730 684116 unleash.go:60] Unleash error: Get "https://unleash.codeium.com/api/client/features": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2024-07-07 13:28:22.149 [INFO]: [Language Server (stderr)]:
+E0707 13:28:22.148211 684116 unleash.go:60] Unleash error: Get "https://unleash.codeium.com/api/client/features": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2024-07-07 13:29:22.149 [INFO]: [Language Server (stderr)]:
+E0707 13:29:22.148247 684116 unleash.go:60] Unleash error: Get "https://unleash.codeium.com/api/client/features": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2024-07-07 14:04:22.149 [INFO]: [Language Server (stderr)]:
+E0707 14:04:22.148421 684116 unleash.go:60] Unleash error: Get "https://unleash.codeium.com/api/client/features": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2024-07-07 14:05:22.148 [INFO]: [Language Server (stderr)]:
+E0707 14:05:22.147373 684116 unleash.go:60] Unleash error: Get "https://unleash.codeium.com/api/client/features": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2024-07-07 14:13:22.149 [INFO]: [Language Server (stderr)]:
+E0707 14:13:22.148426 684116 unleash.go:60] Unleash error: Get "https://unleash.codeium.com/api/client/features": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2024-07-07 14:14:22.150 [INFO]: [Language Server (stderr)]:
+E0707 14:14:22.148887 684116 unleash.go:60] Unleash error: Get "https://unleash.codeium.com/api/client/features": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2024-07-07 14:22:22.149 [INFO]: [Language Server (stderr)]:
+E0707 14:22:22.148216 684116 unleash.go:60] Unleash error: Get "https://unleash.codeium.com/api/client/features": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2024-07-07 14:34:22.149 [INFO]: [Language Server (stderr)]:
+E0707 14:34:22.148686 684116 unleash.go:60] Unleash error: Get "https://unleash.codeium.com/api/client/features": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2024-07-07 14:36:22.148 [INFO]: [Language Server (stderr)]:
+E0707 14:36:22.147574 684116 unleash.go:60] Unleash error: Get "https://unleash.codeium.com/api/client/features": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2024-07-07 14:44:22.150 [INFO]: [Language Server (stderr)]:
+E0707 14:44:22.148809 684116 unleash.go:60] Unleash error: Get "https://unleash.codeium.com/api/client/features": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2024-07-07 14:47:22.149 [INFO]: [Language Server (stderr)]:
+E0707 14:47:22.148354 684116 unleash.go:60] Unleash error: Get "https://unleash.codeium.com/api/client/features": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2024-07-07 14:51:22.149 [INFO]: [Language Server (stderr)]:
+E0707 14:51:22.148299 684116 unleash.go:60] Unleash error: Get "https://unleash.codeium.com/api/client/features": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2024-07-07 15:10:22.157 [INFO]: [Language Server (stderr)]:
+E0707 15:10:22.156438 684116 unleash.go:60] Unleash error: Get "https://unleash.codeium.com/api/client/features": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2024-07-07 15:27:22.148 [INFO]: [Language Server (stderr)]:
+E0707 15:27:22.147470 684116 unleash.go:60] Unleash error: Get "https://unleash.codeium.com/api/client/features": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2024-07-07 15:28:20.176 [INFO]: [Language Server (stderr)]:
+E0707 15:28:20.175303 684116 unleash.go:60] Unleash error: Get "https://unleash.codeium.com/api/client/features": dial tcp: lookup unleash.codeium.com: Temporary failure in name resolution
+2024-07-07 15:59:40.534 [INFO]: Disposing language server process
+2024-07-07 15:59:40.535 [INFO]: Deleting manager directory: /tmp/a1437e08-d5e2-4d82-bbd2-536b5c77d464/codeium/manager
+2024-07-07 15:59:40.540 [INFO]: Successfully disposed language server

@@ -3,8 +3,7 @@
     "profileAssociations": {
         "workspaces": {},
         "emptyWindows": {
-            "1719939237091": "__default__profile__",
-            "1720327149507": "__default__profile__"
+            "1720328356251": "__default__profile__"
         }
     },
     "profileAssociationsMigration": true,
@@ -16,7 +15,7 @@
         "folders": [],
         "emptyWindows": [
             {
-                "backupFolder": "1720327149507"
+                "backupFolder": "1720328356251"
             }
         ]
     },
@@ -58,8 +57,32 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor",
-                                    "enabled": false
+                                    "label": "&&Reopen Closed Editor"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///usr/share/applications/--ozone-platform-hint%3Dwayland",
+                                        "path": "/usr/share/applications/--ozone-platform-hint=wayland",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/usr/share/applications/--ozone-platform-hint=wayland"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///usr/share/applications/--disable-gpu",
+                                        "path": "/usr/share/applications/--disable-gpu",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/usr/share/applications/--disable-gpu"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -1680,13 +1703,13 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/j/.config/Code - OSS/Backups/1720327149507",
+            "backupPath": "/home/j/.config/Code - OSS/Backups/1720328356251",
             "uiState": {
                 "mode": 0,
                 "x": 0,
                 "y": 0,
-                "width": 512,
-                "height": 320
+                "width": 1920,
+                "height": 1080
             }
         },
         "openedWindows": []

@@ -1,0 +1,17 @@
+2024-07-07 10:34:49.259 [INFO]: No proxy settings found
+2024-07-07 10:34:50.373 [INFO]: Creating manager directory: /tmp/de9d0062-cb80-4093-8815-1347ede69403/codeium/manager
+2024-07-07 10:34:50.674 [INFO]: Using cached LS with valid crc32: /home/j/.vscode-oss/extensions/codeium.codeium-1.8.64-universal/dist/a449546e0384eb1c5a91cd222eebb296be9a0f91/language_server_linux_x64
+2024-07-07 10:34:50.681 [INFO]: Language server started
+2024-07-07 10:34:50.846 [INFO]: [Language Server (stderr)]:
+I0707 10:34:50.844945 672875 main.go:558] Starting language server manager with pid 672875
+I0707 10:34:50.845115 672875 main.go:110] Manager acquired its lock file /tmp/de9d0062-cb80-4093-8815-1347ede69403/codeium/manager/locks/manager.lock
+2024-07-07 10:34:50.847 [INFO]: [Language Server (stderr)]:
+I0707 10:34:50.846093 672875 main.go:248] Waiting for random port file in /tmp/de9d0062-cb80-4093-8815-1347ede69403/codeium/manager/child_random_port_1720327790845434910_4948264546201227418 to be created
+2024-07-07 10:34:51.030 [INFO]: [Language Server (stderr)]:
+I0707 10:34:51.029503 672889 main.go:552] Starting language server process with pid 672889
+I0707 10:34:51.029574 672889 server.go:156] Language server will attempt to listen on host 127.0.0.1
+I0707 10:34:51.029701 672889 server.go:163] Language server listening on random port at 39225
+2024-07-07 10:34:51.030 [INFO]: [Language Server (stderr)]:
+I0707 10:34:51.029759 672889 proxy.go:113] proxyplease.proxy> No proxy provided. Attempting to infer from system.
+I0707 10:34:51.029773 672889 proxy.go:113] proxyplease.proxy> No proxy could be determined. Assuming a direct connection.
+I0707 10:34:51.029795 672889 client.go:589] [DEBUG] GET https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions

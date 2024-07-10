@@ -1,0 +1,65 @@
+2024-07-07 10:38:33.281 [INFO]: No proxy settings found
+2024-07-07 10:38:34.399 [INFO]: Creating manager directory: /tmp/29669a13-de4b-43e3-a819-0a12ea29e79b/codeium/manager
+2024-07-07 10:38:34.869 [INFO]: Using cached LS with valid crc32: /home/j/.vscode-oss/extensions/codeium.codeium-1.8.64-universal/dist/a449546e0384eb1c5a91cd222eebb296be9a0f91/language_server_linux_x64
+2024-07-07 10:38:34.877 [INFO]: Language server started
+2024-07-07 10:38:35.043 [INFO]: [Language Server (stderr)]:
+I0707 10:38:35.042513 678181 main.go:558] Starting language server manager with pid 678181
+I0707 10:38:35.042665 678181 main.go:110] Manager acquired its lock file /tmp/29669a13-de4b-43e3-a819-0a12ea29e79b/codeium/manager/locks/manager.lock
+2024-07-07 10:38:35.045 [INFO]: [Language Server (stderr)]:
+I0707 10:38:35.043381 678181 main.go:248] Waiting for random port file in /tmp/29669a13-de4b-43e3-a819-0a12ea29e79b/codeium/manager/child_random_port_1720328015042803457_938863338922454933 to be created
+2024-07-07 10:38:35.205 [INFO]: [Language Server (stderr)]:
+I0707 10:38:35.205223 678195 main.go:552] Starting language server process with pid 678195
+I0707 10:38:35.205288 678195 server.go:156] Language server will attempt to listen on host 127.0.0.1
+2024-07-07 10:38:35.206 [INFO]: [Language Server (stderr)]:
+I0707 10:38:35.205465 678195 server.go:163] Language server listening on random port at 33099
+I0707 10:38:35.205542 678195 proxy.go:113] proxyplease.proxy> No proxy provided. Attempting to infer from system.
+I0707 10:38:35.205565 678195 proxy.go:113] proxyplease.proxy> No proxy could be determined. Assuming a direct connection.
+I0707 10:38:35.205592 678195 client.go:589] [DEBUG] GET https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions
+2024-07-07 10:38:36.320 [INFO]: [Language Server (stderr)]:
+I0707 10:38:36.319795 678195 unleash.go:90] Initializing Unleash
+2024-07-07 10:38:37.136 [INFO]: [Language Server (stderr)]:
+I0707 10:38:37.135739 678195 unleash.go:110] Successfully initialized Unleash
+2024-07-07 10:38:37.152 [INFO]: [Language Server (stderr)]:
+E0707 10:38:37.151109 678195 client_manager.go:270] Metadata is nil when trying to refresh user JWT
+2024-07-07 10:38:38.071 [INFO]: [Language Server (stderr)]:
+I0707 10:38:38.070587 678195 server.go:355] Successfully created API server client
+2024-07-07 10:38:38.127 [INFO]: [Language Server (stderr)]:
+I0707 10:38:38.126641 678195 server.go:364] Successfully initialized tokenizer
+2024-07-07 10:38:38.243 [INFO]: [Language Server (stderr)]:
+I0707 10:38:38.242212 678195 server.go:473] Local search is enabled, will index local files.
+I0707 10:38:38.242255 678195 server.go:477] Using 3 indexer workers
+I0707 10:38:38.242304 678195 search_provider.go:200] Using database at /home/j/.codeium/database/9c0694567290725d9dcba14ade58e297/2/MODEL_EMBED_6591
+2024-07-07 10:38:38.244 [INFO]: [Language Server (stderr)]:
+I0707 10:38:38.243480 678195 database.go:123] Bad db state detected: false
+2024-07-07 10:38:38.244 [INFO]: [Language Server (stderr)]:
+I0707 10:38:38.244147 678195 search_provider.go:214] Successfully created embedding search database in 1ms
+2024-07-07 10:38:38.244 [INFO]: [Language Server (stderr)]:
+I0707 10:38:38.244554 678195 indexer.go:224] Using 12 embed workers
+I0707 10:38:38.244590 678195 search_provider.go:239] Successfully created and started indexer
+I0707 10:38:38.244625 678195 search_provider.go:265] Successfully created embedding search provider
+I0707 10:38:38.244637 678195 server.go:515] Successfully created exact search provider
+2024-07-07 10:38:38.251 [INFO]: [Language Server (stderr)]:
+I0707 10:38:38.250249 678195 server.go:545] Successfully created completion provider
+I0707 10:38:38.250404 678195 server.go:594] Child process attempting to acquire lock file /tmp/29669a13-de4b-43e3-a819-0a12ea29e79b/codeium/manager/locks/child_lock_1720328015042870911_1725635761342775944
+I0707 10:38:38.250459 678195 server.go:602] Child process acquired lock file /tmp/29669a13-de4b-43e3-a819-0a12ea29e79b/codeium/manager/locks/child_lock_1720328015042870911_1725635761342775944
+2024-07-07 10:38:38.259 [INFO]: [Language Server (stderr)]:
+I0707 10:38:38.257720 678195 server.go:183] LSP listening on random port at 43065
+2024-07-07 10:38:38.260 [INFO]: [Language Server (stdout)]:
+43065
+2024-07-07 10:38:38.260 [INFO]: [Language Server (stderr)]:
+I0707 10:38:38.259419 678181 main.go:284] Language server manager found random server port 33099
+I0707 10:38:38.259474 678181 main.go:285] Language server manager found random lsp port 43065
+I0707 10:38:38.259503 678181 main.go:292] Language server manager attempting to connect to language server at 127.0.0.1:33099
+I0707 10:38:38.259486 678195 web_server.go:239] Chat Web Server listening at ws://127.0.0.1:33829
+2024-07-07 10:38:38.286 [INFO]: [Language Server (stderr)]:
+I0707 10:38:38.285904 678181 main.go:163] Fixing language server port at 33099
+I0707 10:38:38.285936 678181 main.go:343] Language server manager successfully connected to new language server at 127.0.0.1:33099
+2024-07-07 10:38:38.302 [INFO]: Found language server running on port 33099
+2024-07-07 10:38:38.311 [INFO]: Downloaded binary: /home/j/.codeium/bin/af6b6c543b224d348a8876f0c06245d9ea7929c5/ripgrep_linux_x64
+2024-07-07 10:38:38.324 [INFO]: [Language Server (stderr)]:
+I0707 10:38:38.323481 678195 rpcs_miscellaneous.go:118] Ripgrep available at /home/j/.codeium/bin/af6b6c543b224d348a8876f0c06245d9ea7929c5/ripgrep_linux_x64
+2024-07-07 10:38:38.499 [INFO]: [Language Server (stderr)]:
+I0707 10:38:38.498469 678195 rpcs_miscellaneous.go:312] University version is up to date.
+2024-07-07 10:41:23.816 [INFO]: Disposing language server process
+2024-07-07 10:41:23.816 [INFO]: Deleting manager directory: /tmp/29669a13-de4b-43e3-a819-0a12ea29e79b/codeium/manager
+2024-07-07 10:41:23.820 [INFO]: Successfully disposed language server

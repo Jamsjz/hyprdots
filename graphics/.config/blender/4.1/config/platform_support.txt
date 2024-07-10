@@ -1,0 +1,1 @@
+{Intel/Mesa Intel(R) Graphics (ADL GT2)/4.6 (Core Profile) Mesa 24.1.1-arch1.1}=SUPPORTED
