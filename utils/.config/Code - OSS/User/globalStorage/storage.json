@@ -57,10 +57,33 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor"
+                                    "label": "&&Reopen Closed Editor",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/j/--ozone-platform-hint%3Dwayland",
+                                        "path": "/home/j/--ozone-platform-hint=wayland",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/--ozone-platform-hint=wayland"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/j/--disable-gpu",
+                                        "path": "/home/j/--disable-gpu",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/--disable-gpu"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -1708,8 +1731,8 @@
                 "mode": 0,
                 "x": 0,
                 "y": 0,
-                "width": 1920,
-                "height": 1080
+                "width": 1024,
+                "height": 626
             }
         },
         "openedWindows": []
