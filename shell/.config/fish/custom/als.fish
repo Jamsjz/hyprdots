@@ -38,9 +38,8 @@ alias md='mkdir -p'
 alias reload='source ~/.config/fish/config.fish'
 alias pbcopy='xsel --input --clipboard'
 alias pbpaste='xsel --output --clipboard'
-alias cmoi='chezmoi'
-alias config='/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME'
 alias ff='fastfetch'
+alias ldk='sudo lazydocker'
 
 # Command Not Found Handler
 function command_not_found_handler

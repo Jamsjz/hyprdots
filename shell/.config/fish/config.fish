@@ -151,16 +151,16 @@ fish_add_path /home/j/.local/bin
 zoxide init fish | source
 starship init fish | source
 
+set -x LUA_PATH "$LUA_PATH;/usr/share/lua/5.1/?.lua;/usr/share/lua/5.1/?/init.lua"
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
 if test -f /home/j/anaconda3/bin/conda
-    eval /home/j/anaconda3/bin/conda "shell.fish" "hook" $argv | source
+    eval /home/j/anaconda3/bin/conda "shell.fish" hook $argv | source
 else
     if test -f "/home/j/anaconda3/etc/fish/conf.d/conda.fish"
         . "/home/j/anaconda3/etc/fish/conf.d/conda.fish"
     else
-        set -x PATH "/home/j/anaconda3/bin" $PATH
+        set -x PATH /home/j/anaconda3/bin $PATH
     end
 end
 # <<< conda initialize <<<
-

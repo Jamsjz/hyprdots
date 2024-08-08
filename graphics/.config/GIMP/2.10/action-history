@@ -2,14 +2,16 @@
 
 (history-item "edit-clear" 3)
 (history-item "select-invert" 0)
-(history-item "file-export-as" 1)
+(history-item "file-export-as" 0)
 (history-item "file-quit" 2)
+(history-item "tools-paintbrush" 1)
 (history-item "file-save-as" 1)
 (history-item "image-duplicate" 0)
 (history-item "file-save" 0)
 (history-item "file-print-gtk" 0)
 (history-item "tools-crop" 0)
 (history-item "tools-iscissors" 0)
-(history-item "tools-rect-select" 1)
+(history-item "tools-rect-select" 0)
+(history-item "image-new" 1)
 
 # end of action-history

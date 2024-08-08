@@ -57,11 +57,32 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor",
-                                    "enabled": false
+                                    "label": "&&Reopen Closed Editor"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/j/cds/py/--ozone-platform-hint%3Dwayland",
+                                        "path": "/home/j/cds/py/--ozone-platform-hint=wayland",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/cds/py/--ozone-platform-hint=wayland"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/j/cds/py/--disable-gpu",
+                                        "path": "/home/j/cds/py/--disable-gpu",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/cds/py/--disable-gpu"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -806,8 +827,7 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back",
-                        "enabled": false
+                        "label": "&&Back"
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -1732,7 +1752,7 @@
                 "x": 0,
                 "y": 0,
                 "width": 1024,
-                "height": 626
+                "height": 640
             }
         },
         "openedWindows": []
