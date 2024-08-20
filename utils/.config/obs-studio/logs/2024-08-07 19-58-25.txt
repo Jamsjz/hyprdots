@@ -180,3 +180,5 @@
 20:04:47.369: Output 'simple_file_output': Total drawn frames: 18776
 20:04:47.369: ==== Recording Stop ================================================
 20:04:47.726: libfdk_aac encoder destroyed
+15:38:24.514: adding 64 milliseconds of audio buffering, total audio buffering is now 85 milliseconds (source: Desktop Audio)
+15:38:24.514: 

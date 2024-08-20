@@ -1,0 +1,17 @@
+2024-08-08 20:51:44.065 [info] Extension host with pid 1737696 started
+2024-08-08 20:51:44.105 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-08-08 20:51:44.150 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-08-08 20:51:44.152 [info] ExtensionService#_doActivateExtension mhutchie.git-graph, startup: true, activationEvent: '*'
+2024-08-08 20:51:44.207 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-08-08 20:51:44.238 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-08-08 20:51:44.277 [info] Eager extensions activated
+2024-08-08 20:51:44.301 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-08-08 20:51:44.304 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-08-08 20:51:44.311 [info] ExtensionService#_doActivateExtension Codeium.codeium, startup: false, activationEvent: 'onStartupFinished'
+2024-08-08 20:51:44.503 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2024-08-08 20:51:44.514 [info] ExtensionService#_doActivateExtension sainnhe.gruvbox-material, startup: false, activationEvent: 'onStartupFinished'
+2024-08-08 20:51:44.531 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onStartupFinished'
+2024-08-08 20:51:45.655 [error] Error: ENOENT: no such file or directory, open '/home/j/.config/Code - OSS/User/globalStorage/vscodevim.vim/.registers'
+2024-08-08 20:51:49.572 [info] Extension host terminating: renderer closed the MessagePort
+2024-08-08 20:51:49.587 [error] Error: ENOENT: no such file or directory, open '/home/j/.config/Code - OSS/User/globalStorage/vscodevim.vim/.registers'
+2024-08-08 20:51:49.587 [info] Extension host with pid 1737696 exiting with code 0

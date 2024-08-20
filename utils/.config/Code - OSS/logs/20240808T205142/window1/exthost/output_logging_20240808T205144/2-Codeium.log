@@ -1,0 +1,23 @@
+2024-08-08 20:51:44.610 [INFO]: No proxy settings found
+2024-08-08 20:51:45.800 [INFO]: Creating manager directory: /tmp/c30c6480-d2f0-449f-baf9-47ee22dece5b/codeium/manager
+2024-08-08 20:51:46.367 [INFO]: Using cached LS with valid crc32: /home/j/.vscode-oss/extensions/codeium.codeium-1.8.64-universal/dist/a449546e0384eb1c5a91cd222eebb296be9a0f91/language_server_linux_x64
+2024-08-08 20:51:46.374 [INFO]: Language server started
+2024-08-08 20:51:46.548 [INFO]: [Language Server (stderr)]:
+I0808 20:51:46.546856 1737777 main.go:558] Starting language server manager with pid 1737777
+I0808 20:51:46.547049 1737777 main.go:110] Manager acquired its lock file /tmp/c30c6480-d2f0-449f-baf9-47ee22dece5b/codeium/manager/locks/manager.lock
+2024-08-08 20:51:46.549 [INFO]: [Language Server (stderr)]:
+I0808 20:51:46.548077 1737777 main.go:248] Waiting for random port file in /tmp/c30c6480-d2f0-449f-baf9-47ee22dece5b/codeium/manager/child_random_port_1723129606547223029_48106193660809702 to be created
+2024-08-08 20:51:46.712 [INFO]: [Language Server (stderr)]:
+I0808 20:51:46.711569 1737792 main.go:552] Starting language server process with pid 1737792
+I0808 20:51:46.711639 1737792 server.go:156] Language server will attempt to listen on host 127.0.0.1
+2024-08-08 20:51:46.712 [INFO]: [Language Server (stderr)]:
+I0808 20:51:46.711800 1737792 server.go:163] Language server listening on random port at 45759
+I0808 20:51:46.711880 1737792 proxy.go:113] proxyplease.proxy> No proxy provided. Attempting to infer from system.
+I0808 20:51:46.711906 1737792 proxy.go:113] proxyplease.proxy> No proxy could be determined. Assuming a direct connection.
+I0808 20:51:46.711928 1737792 client.go:589] [DEBUG] GET https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions
+2024-08-08 20:51:47.807 [INFO]: [Language Server (stderr)]:
+I0808 20:51:47.806483 1737792 unleash.go:90] Initializing Unleash
+2024-08-08 20:51:49.057 [INFO]: [Language Server (stderr)]:
+I0808 20:51:49.056443 1737792 unleash.go:110] Successfully initialized Unleash
+2024-08-08 20:51:49.071 [INFO]: [Language Server (stderr)]:
+E0808 20:51:49.070344 1737792 client_manager.go:270] Metadata is nil when trying to refresh user JWT

@@ -1,0 +1,225 @@
+14:35:43.414: [Safe Mode] Unclean shutdown detected!
+14:35:46.378: [Safe Mode] User elected to launch normally.
+14:35:46.378: Platform: Wayland
+14:35:46.379: CPU Name: 12th Gen Intel(R) Core(TM) i5-12450H
+14:35:46.379: CPU Speed: 1387.953MHz
+14:35:46.379: Physical Cores: 8, Logical Cores: 12
+14:35:46.379: Physical Memory: 15655MB Total, 8780MB Free
+14:35:46.379: Kernel Version: Linux 6.9.7-zen1-1-zen
+14:35:46.379: Distribution: "Arch Linux" Unknown
+14:35:46.379: Desktop Environment: Hyprland (Hyprland)
+14:35:46.379: Session Type: wayland
+14:35:46.389: Qt Version: 6.7.1 (runtime), 6.7.1 (compiled)
+14:35:46.389: Portable mode: false
+14:35:46.427: OBS 30.1.2-2 (linux)
+14:35:46.428: ---------------------------------
+14:35:46.428: ---------------------------------
+14:35:46.428: audio settings reset:
+14:35:46.428: 	samples per sec: 48000
+14:35:46.428: 	speakers:        2
+14:35:46.428: 	max buffering:   960 milliseconds
+14:35:46.428: 	buffering type:  dynamically increasing
+14:35:46.432: ---------------------------------
+14:35:46.432: Initializing OpenGL...
+14:35:46.432: Using EGL/Wayland
+14:35:46.483: Initialized EGL 1.5
+14:35:46.503: Loading up OpenGL on adapter Intel Mesa Intel(R) Graphics (ADL GT2)
+14:35:46.503: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 24.1.1-arch1.1, shading language 4.60
+14:35:46.551: ---------------------------------
+14:35:46.551: video settings reset:
+14:35:46.551: 	base resolution:   1280x720
+14:35:46.551: 	output resolution: 1280x720
+14:35:46.551: 	downscale filter:  Bicubic
+14:35:46.551: 	fps:               60/1
+14:35:46.551: 	format:            NV12
+14:35:46.551: 	YUV mode:          Rec. 709/Partial
+14:35:46.551: NV12 texture support enabled
+14:35:46.551: P010 texture support not available
+14:35:46.558: Audio monitoring device:
+14:35:46.558: 	name: Default
+14:35:46.558: 	id: default
+14:35:46.558: ---------------------------------
+14:35:46.573: Failed to load 'en-US' text for module: 'decklink-captions.so'
+14:35:46.584: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+14:35:46.597: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+14:35:46.597: Failed to initialize module 'decklink.so'
+14:35:46.798: [pipewire] Available captures:
+14:35:46.798: [pipewire]     - Desktop capture
+14:35:46.798: [pipewire]     - Window capture
+14:35:46.831: v4l2loopback not installed, virtual camera disabled
+14:35:46.906: NVENC supported
+14:35:46.906: LIBVA_DRIVER_NAME variable is set, this could prevent FFmpeg VAAPI from working correctly
+14:35:47.511: VAAPI: Failed to initialize display in vaapi_device_h264_supported
+14:35:47.511: FFmpeg VAAPI H264 encoding not supported
+14:35:47.511: VAAPI: Failed to initialize display in vaapi_device_av1_supported
+14:35:47.511: FFmpeg VAAPI AV1 encoding not supported
+14:35:47.511: VAAPI: Failed to initialize display in vaapi_device_hevc_supported
+14:35:47.511: FFmpeg VAAPI HEVC encoding not supported
+14:35:47.770: ---------------------------------
+14:35:47.770:   Loaded Modules:
+14:35:47.770:     text-freetype2.so
+14:35:47.770:     rtmp-services.so
+14:35:47.770:     obs-x264.so
+14:35:47.770:     obs-webrtc.so
+14:35:47.770:     obs-vst.so
+14:35:47.770:     obs-transitions.so
+14:35:47.770:     obs-qsv11.so
+14:35:47.770:     obs-outputs.so
+14:35:47.770:     obs-libfdk.so
+14:35:47.770:     obs-filters.so
+14:35:47.770:     obs-ffmpeg.so
+14:35:47.771:     linux-v4l2.so
+14:35:47.771:     linux-pulseaudio.so
+14:35:47.771:     linux-pipewire.so
+14:35:47.771:     linux-jack.so
+14:35:47.771:     linux-capture.so
+14:35:47.771:     linux-alsa.so
+14:35:47.771:     image-source.so
+14:35:47.771:     frontend-tools.so
+14:35:47.771:     decklink-output-ui.so
+14:35:47.771:     decklink-captions.so
+14:35:47.771: ---------------------------------
+14:35:47.772: ==== Startup complete ===============================================
+14:35:47.818: All scene data cleared
+14:35:47.818: ------------------------------------------------
+14:35:47.825: pulse-input: Server name: 'PulseAudio (on PipeWire 1.0.7) 15.0.0'
+14:35:47.826: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+14:35:47.826: pulse-input: Started recording from 'alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp__sink.monitor' (default)
+14:35:47.826: [Loaded global audio device]: 'Desktop Audio'
+14:35:47.826: pulse-input: Server name: 'PulseAudio (on PipeWire 1.0.7) 15.0.0'
+14:35:47.827: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+14:35:47.827: pulse-input: Started recording from 'alsa_input.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_6__source' (default)
+14:35:47.827: [Loaded global audio device]: 'Mic/Aux'
+14:35:47.827: PipeWire initialized
+14:35:47.829: Switched to scene 'Scene'
+14:35:47.829: ------------------------------------------------
+14:35:47.829: Loaded scenes:
+14:35:47.829: - scene 'Scene':
+14:35:47.829:     - source: 'Screen Capture (PipeWire)' (pipewire-desktop-capture-source)
+14:35:47.829: ------------------------------------------------
+14:35:47.887: [pipewire] Screencast session created
+14:35:48.456: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Desktop Audio)
+14:35:48.456: 
+14:36:46.394: User Removed source 'Screen Capture (PipeWire)' (pipewire-desktop-capture-source) from scene 'Scene'
+14:36:46.395: [portals] Request cancelled
+14:36:51.698: PipeWire initialized
+14:36:51.703: User added source 'Screen Capture (PipeWire)' (pipewire-desktop-capture-source) to scene 'Scene'
+14:36:57.017: [pipewire] Screencast session created
+14:36:59.627: [pipewire] Asking for desktop
+14:36:59.630: [pipewire] desktop selected, setting up screencast
+14:36:59.639: [pipewire] Server version: 1.0.7
+14:36:59.639: [pipewire] Library version: 1.0.7
+14:36:59.639: [pipewire] Header version: 1.0.7
+14:36:59.639: [pipewire] Created stream 0x60d1b0023390
+14:36:59.639: [pipewire] Stream 0x60d1b0023390 state: "connecting" (error: none)
+14:36:59.640: [pipewire] Playing stream 0x60d1b0023390
+14:36:59.640: [pipewire] Stream 0x60d1b0023390 state: "paused" (error: none)
+14:36:59.663: [pipewire] Negotiated format:
+14:36:59.663: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+14:36:59.663: [pipewire]     Modifier: 0x0
+14:36:59.663: [pipewire]     Size: 1920x1080
+14:36:59.664: [pipewire]     Framerate: 0/1
+14:36:59.666: [pipewire] Negotiated format:
+14:36:59.666: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+14:36:59.667: [pipewire]     Modifier: 0x100000000000008
+14:36:59.667: [pipewire]     Size: 1920x1080
+14:36:59.667: [pipewire]     Framerate: 0/1
+14:36:59.689: [pipewire] Stream 0x60d1b0023390 state: "streaming" (error: none)
+14:36:59.695: Cannot create EGLImage: Arguments are inconsistent (for example, a valid context requires buffers not supplied by a valid surface).
+14:36:59.695: [pipewire] Renegotiating stream
+14:36:59.696: [pipewire] Negotiated format:
+14:36:59.696: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+14:36:59.696: [pipewire]     Modifier: 0x100000000000008
+14:36:59.696: [pipewire]     Size: 1920x1080
+14:36:59.696: [pipewire]     Framerate: 0/1
+14:36:59.700: [pipewire] Negotiated format:
+14:36:59.700: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+14:36:59.700: [pipewire]     Modifier: 0x100000000000006
+14:36:59.700: [pipewire]     Size: 1920x1080
+14:36:59.700: [pipewire]     Framerate: 0/1
+14:36:59.716: Cannot create EGLImage: Arguments are inconsistent (for example, a valid context requires buffers not supplied by a valid surface).
+14:36:59.716: [pipewire] Renegotiating stream
+14:36:59.718: [pipewire] Stream 0x60d1b0023390 state: "paused" (error: none)
+14:36:59.718: [pipewire] Negotiated format:
+14:36:59.718: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+14:36:59.718: [pipewire]     Modifier: 0x100000000000006
+14:36:59.718: [pipewire]     Size: 1920x1080
+14:36:59.718: [pipewire]     Framerate: 0/1
+14:36:59.720: [pipewire] Negotiated format:
+14:36:59.720: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+14:36:59.720: [pipewire]     Modifier: 0x100000000000002
+14:36:59.720: [pipewire]     Size: 1920x1080
+14:36:59.720: [pipewire]     Framerate: 0/1
+14:36:59.730: [pipewire] Stream 0x60d1b0023390 state: "streaming" (error: none)
+14:54:09.533: adding 21 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Mic/Aux)
+14:54:09.533: 
+14:55:06.454: ---------------------------------
+14:55:06.454: [FFmpeg NVENC encoder: 'simple_video_recording'] settings:
+14:55:06.454: 	encoder:      NVIDIA NVENC H.264 (FFmpeg)
+14:55:06.454: 	rate_control: CQP
+14:55:06.454: 	bitrate:      0
+14:55:06.454: 	cqp:          21
+14:55:06.454: 	keyint:       -1
+14:55:06.454: 	preset:       p5
+14:55:06.454: 	tuning:       hq
+14:55:06.454: 	multipass:    qres
+14:55:06.454: 	profile:      high
+14:55:06.454: 	width:        1280
+14:55:06.454: 	height:       720
+14:55:06.454: 	b-frames:     2
+14:55:06.454: 	psycho-aq:    1
+14:55:06.454: 	GPU:          0
+14:55:06.454: 
+14:55:07.137: [NVENC encoder] nvenc_create_internal failed, trying again without Psycho Visual Tuning
+14:55:07.138: ---------------------------------
+14:55:07.138: [FFmpeg NVENC encoder: 'simple_video_recording'] settings:
+14:55:07.138: 	encoder:      NVIDIA NVENC H.264 (FFmpeg)
+14:55:07.138: 	rate_control: CQP
+14:55:07.138: 	bitrate:      0
+14:55:07.138: 	cqp:          21
+14:55:07.138: 	keyint:       -1
+14:55:07.138: 	preset:       p5
+14:55:07.138: 	tuning:       hq
+14:55:07.138: 	multipass:    qres
+14:55:07.138: 	profile:      high
+14:55:07.138: 	width:        1280
+14:55:07.138: 	height:       720
+14:55:07.138: 	b-frames:     2
+14:55:07.138: 	psycho-aq:    0
+14:55:07.138: 	GPU:          0
+14:55:07.138: 
+14:58:55.914: ---------------------------------
+14:58:55.914: [FFmpeg NVENC encoder: 'simple_video_recording'] settings:
+14:58:55.914: 	encoder:      NVIDIA NVENC H.264 (FFmpeg)
+14:58:55.914: 	rate_control: CQP
+14:58:55.914: 	bitrate:      0
+14:58:55.914: 	cqp:          21
+14:58:55.914: 	keyint:       -1
+14:58:55.914: 	preset:       p5
+14:58:55.914: 	tuning:       hq
+14:58:55.914: 	multipass:    qres
+14:58:55.914: 	profile:      high
+14:58:55.914: 	width:        1280
+14:58:55.914: 	height:       720
+14:58:55.914: 	b-frames:     2
+14:58:55.914: 	psycho-aq:    1
+14:58:55.914: 	GPU:          0
+14:58:55.914: 
+14:58:56.563: [NVENC encoder] nvenc_create_internal failed, trying again without Psycho Visual Tuning
+14:58:56.563: ---------------------------------
+14:58:56.563: [FFmpeg NVENC encoder: 'simple_video_recording'] settings:
+14:58:56.563: 	encoder:      NVIDIA NVENC H.264 (FFmpeg)
+14:58:56.563: 	rate_control: CQP
+14:58:56.563: 	bitrate:      0
+14:58:56.563: 	cqp:          21
+14:58:56.563: 	keyint:       -1
+14:58:56.563: 	preset:       p5
+14:58:56.563: 	tuning:       hq
+14:58:56.563: 	multipass:    qres
+14:58:56.563: 	profile:      high
+14:58:56.563: 	width:        1280
+14:58:56.563: 	height:       720
+14:58:56.563: 	b-frames:     2
+14:58:56.563: 	psycho-aq:    0
+14:58:56.563: 	GPU:          0
+14:58:56.563: 

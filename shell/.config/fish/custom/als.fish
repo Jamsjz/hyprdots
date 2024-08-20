@@ -78,7 +78,7 @@ function ins
     set -l aur
 
     for pkg in $inPkg
-        if pacman -Si $pkg &>/dev/null
+        if powerpill -Si $pkg &>/dev/null
             set arch $arch $pkg
         else
             set aur $aur $pkg
@@ -108,5 +108,4 @@ alias mkdir='mkdir -p'
 alias ssh='kitten ssh'
 
 
-alias nv.p='NVIM_APPNAME=nvim-primeagen nvim'
 alias rmpy='export PATH=/usr/bin:/usr/local/bin:$PATH'
