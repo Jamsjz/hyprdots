@@ -19,3 +19,13 @@ function yy
     end
     rm -f -- "$tmp"
 end
+
+function condas
+    set environments (conda env list | awk '{print $1}' | tail -n +3)
+    set selected_env (printf "%s\n" $environments | fzf --prompt="🔧 Select Conda Environment: " --height=~50% --layout=reverse --border --exit-0)
+    if test -z "$selected_env"
+        echo "No environment selected"
+        return 0
+    end
+    conda activate $selected_env
+end

@@ -36,6 +36,18 @@
                         "label": "New &&Window"
                     },
                     {
+                        "id": "submenuitem.OpenProfile",
+                        "label": "New Window with Profile",
+                        "submenu": {
+                            "items": [
+                                {
+                                    "id": "workbench.profiles.actions.createProfile",
+                                    "label": "New Profile..."
+                                }
+                            ]
+                        }
+                    },
+                    {
                         "id": "vscode.menubar.separator"
                     },
                     {
@@ -57,8 +69,7 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor",
-                                    "enabled": false
+                                    "label": "&&Reopen Closed Editor"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -84,17 +95,6 @@
                                     },
                                     "enabled": true,
                                     "label": "~/cds/py/--disable-gpu"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/j/--ozone-platform-hint%3Dwayland",
-                                        "path": "/home/j/--ozone-platform-hint=wayland",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/--ozone-platform-hint=wayland"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -155,15 +155,18 @@
                     },
                     {
                         "id": "workbench.action.files.save",
-                        "label": "&&Save"
+                        "label": "&&Save",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.files.saveAs",
-                        "label": "Save &&As..."
+                        "label": "Save &&As...",
+                        "enabled": false
                     },
                     {
                         "id": "saveAll",
-                        "label": "Save A&&ll"
+                        "label": "Save A&&ll",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -218,7 +221,7 @@
                                             },
                                             {
                                                 "id": "workbench.profiles.actions.createProfile",
-                                                "label": "Create Profile..."
+                                                "label": "New Profile..."
                                             },
                                             {
                                                 "id": "workbench.profiles.actions.deleteProfile",
@@ -253,11 +256,11 @@
                                 },
                                 {
                                     "id": "workbench.action.openSnippets",
-                                    "label": "Configure User Snippets"
+                                    "label": "Configure Snippets"
                                 },
                                 {
                                     "id": "workbench.action.tasks.openUserTasks",
-                                    "label": "User Tasks"
+                                    "label": "Tasks"
                                 },
                                 {
                                     "id": "submenuitem.ThemesSubMenu",
@@ -299,7 +302,8 @@
                     },
                     {
                         "id": "workbench.action.closeActiveEditor",
-                        "label": "&&Close Editor"
+                        "label": "&&Close Editor",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.closeWindow",
@@ -344,11 +348,13 @@
                     },
                     {
                         "id": "actions.find",
-                        "label": "&&Find"
+                        "label": "&&Find",
+                        "enabled": false
                     },
                     {
                         "id": "editor.action.startFindReplaceAction",
-                        "label": "&&Replace"
+                        "label": "&&Replace",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -550,9 +556,8 @@
                                     "submenu": {
                                         "items": [
                                             {
-                                                "id": "workbench.action.positionPanelBottom",
-                                                "label": "Bottom",
-                                                "checked": true
+                                                "id": "workbench.action.positionPanelTop",
+                                                "label": "Top"
                                             },
                                             {
                                                 "id": "workbench.action.positionPanelLeft",
@@ -561,6 +566,11 @@
                                             {
                                                 "id": "workbench.action.positionPanelRight",
                                                 "label": "Right"
+                                            },
+                                            {
+                                                "id": "workbench.action.positionPanelBottom",
+                                                "label": "Bottom",
+                                                "checked": true
                                             }
                                         ]
                                     }
@@ -703,13 +713,6 @@
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
-                                    "id": "workbench.action.splitEditorInGroup",
-                                    "label": "Split in &&Group"
-                                },
-                                {
-                                    "id": "vscode.menubar.separator"
-                                },
-                                {
                                     "id": "workbench.action.moveEditorToNewWindow",
                                     "label": "&&Move Editor into New Window"
                                 },
@@ -809,7 +812,8 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "&&Word Wrap"
+                        "label": "&&Word Wrap",
+                        "enabled": false
                     }
                 ]
             },
@@ -1480,11 +1484,6 @@
                 "isNative": false,
                 "userSettingsLabel": "ctrl+k ctrl+\\"
             },
-            "workbench.action.splitEditorInGroup": {
-                "label": "Ctrl+K Ctrl+Shift+\\",
-                "isNative": false,
-                "userSettingsLabel": "ctrl+k ctrl+shift+\\"
-            },
             "workbench.action.copyEditorToNewWindow": {
                 "label": "Ctrl+K O",
                 "isNative": false,
@@ -1742,8 +1741,8 @@
                 "mode": 0,
                 "x": 0,
                 "y": 0,
-                "width": 1920,
-                "height": 1080
+                "width": 960,
+                "height": 540
             }
         },
         "openedWindows": []
